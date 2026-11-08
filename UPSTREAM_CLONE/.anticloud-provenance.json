@@ -1,0 +1,19 @@
+{
+  "name": "L_BLACKBIRD",
+  "slug": "p1ngul1n0/Blackbird",
+  "url": "https://github.com/p1ngul1n0/Blackbird",
+  "tier": 6,
+  "domain": "osint",
+  "role": "Windows kernel and environment enumeration",
+  "commit": "b45505080ef51bb3ef52dc29879ee6bef31e5b94",
+  "commit_date": "2025-07-13T10:48:11-03:00",
+  "licence": "GPL-3.0",
+  "licence_file": "docs\\LICENSE",
+  "licence_class": "copyleft",
+  "vendored_at": "2026-09-30T05:46:41.763134+00:00",
+  "depth": 1,
+  "size_mb": 2.27,
+  "ok": true,
+  "error": "",
+  "licence_resolved_by": "anticloud.licence_scan"
+}
