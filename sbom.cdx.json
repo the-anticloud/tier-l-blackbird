@@ -1,0 +1,109 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:eca95bc0-dcc2-5183-aea9-41a92f60ab62",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:32:41Z",
+    "component": {
+      "type": "application",
+      "name": "L_BLACKBIRD",
+      "version": "5b82e243a906",
+      "bom-ref": "pkg:generic/anticloud/L_BLACKBIRD@5b82e243a906",
+      "purl": "pkg:generic/anticloud/L_BLACKBIRD@5b82e243a906",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "5b82e243a906a0b39d9ef0a1162505afe185daa7"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/blackbird-io/blackbird.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "PkgConfig",
+      "version": "unspecified",
+      "purl": "pkg:generic/PkgConfig",
+      "bom-ref": "native/PkgConfig@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Threads",
+      "version": "unspecified",
+      "purl": "pkg:generic/Threads",
+      "bom-ref": "native/Threads@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "UCX",
+      "version": "unspecified",
+      "purl": "pkg:generic/UCX",
+      "bom-ref": "native/UCX@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "etcd-cpp-api",
+      "version": "unspecified",
+      "purl": "pkg:generic/etcd-cpp-api",
+      "bom-ref": "native/etcd-cpp-api@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "GLOG",
+      "version": "unspecified",
+      "purl": "pkg:generic/GLOG",
+      "bom-ref": "native/GLOG@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "yaml-cpp",
+      "version": "unspecified",
+      "purl": "pkg:generic/yaml-cpp",
+      "bom-ref": "native/yaml-cpp@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "LIBURING",
+      "version": "unspecified",
+      "purl": "pkg:generic/LIBURING",
+      "bom-ref": "native/LIBURING@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "nlohmann_json",
+      "version": "unspecified",
+      "purl": "pkg:generic/nlohmann_json",
+      "bom-ref": "native/nlohmann_json@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "glog",
+      "version": "unspecified",
+      "purl": "pkg:generic/glog",
+      "bom-ref": "native/glog@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "YAMLCPP",
+      "version": "unspecified",
+      "purl": "pkg:generic/YAMLCPP",
+      "bom-ref": "native/YAMLCPP@unspecified"
+    }
+  ]
+}
